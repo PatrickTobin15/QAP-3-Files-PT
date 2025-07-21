@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mo's Lawncare Services - Customer Invoice</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <div class="invoice-container">
+
+    <div class="title">Mo’s Lawncare Services – Customer Invoice</div>
+
+    <p><strong>Customer details:</strong></p>
+    <p id="custDetails" style="white-space: pre-wrap;"></p>
+
+    <table>
+      <tbody>
+        <tr>
+          <td class="label-col">The properties size in SqFt:</td>
+          <td class="value-col" id="propSize"></td>
+        </tr>
+        <tr>
+          <td class="label-col">The Cost of the Border:</td>
+          <td class="value-col" id="bordCost"></td>
+        </tr>
+        <tr>
+          <td class="label-col">The Cost of the Mowing:</td>
+          <td class="value-col" id="mowCost"></td>
+        </tr>
+        <tr>
+          <td class="label-col">The cost of Fertilizer:</td>
+          <td class="value-col" id="fertCost"></td>
+        </tr>
+        <tr>
+          <td class="label-col"><strong>The total charges:</strong></td>
+          <td class="value-col" id="subtot"></td>
+        </tr>
+        <tr>
+          <td class="label-col">The sales tax (HST):</td>
+          <td class="value-col" id="hst"></td>
+        </tr>
+        <tr>
+          <td class="label-col">The Environmental tax:</td>
+          <td class="value-col" id="envirTax"></td>
+        </tr>
+        <tr>
+          <td class="label-col"><strong> The Invoice total:</strong></td>
+          <td class="value-col" id="totalInv"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="footer">Turning Lawns into beautiful, unique, Landscapes</p>
+
+  </div>
+
+  <script src="index.js" defer></script>
+
+</body>
+</html>
