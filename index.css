@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.invoice-container {
+  border: 2px solid black;
+  padding: 15px;
+  width: 440px;
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+  margin-top: 15px;
+}
+th, td {
+  border: 1px solid #444;
+  padding: 6px 10px;
+  text-align: left;
+}
+th {
+  background-color: #f7c000;
+  font-weight: bold;
+  color: #000;
+}
+.label-col {
+  width: 65%;
+}
+.value-col {
+  width: 35%;
+  text-align: right;
+  font-family: monospace;
+}
+.title {
+  background-color: #f7c000;
+  font-weight: bold;
+  padding: 8px;
+  color: #000;
+  width: 400px;
+}
+.footer {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #d97e00;
+}
